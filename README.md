@@ -18,7 +18,7 @@ After you open MU, start a new project and copy-paste the code from main.py.
 
 Before you can run the code, open Terminal on your Raspberry Pi and type `crontab -e`.
 
-Scroll to the bottom of the file, and add this line, '@reboot python3 /home/pi/main.py'. Change the directory of the file if needed.
+Scroll to the bottom of the file, and add this line, `@reboot python3 /home/pi/main.py`. Change the directory of the file if needed.
 
 
 **Save and Run**
